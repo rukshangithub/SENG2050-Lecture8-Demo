@@ -1,0 +1,18 @@
+spring:
+    application:
+        name: demo
+        payment-gateway: Shopify
+
+    jpa:
+        hibernate:
+            ddl-auto: update
+        show-sql: true
+        properties:
+            hibernate: 
+                dialect: org.hibernate.dialect.MySQL8Dialect
+    
+    datasource:
+        url: jdbc:mysql://localhost:3306/companydb
+        username: seng2050_admin
+        password: P@ssword
+
